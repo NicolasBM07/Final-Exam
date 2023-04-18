@@ -1,0 +1,159 @@
+/*    Nicolas Millan St. 200533728
+        Final Exam HTML - CMPG
+        Jeremy Mcculley 04/18/2023
+*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* Header Styling */
+header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(53, 106, 159);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo{
+    height: 100%;
+    width: 100px;
+}
+.nav_links{
+    display: flex;
+    color: white;
+    padding-left: 30%;
+    padding: 30px 30px;
+}
+nav ul li a {
+    padding-right: 20px;
+    font-family: 'Inter', sans-serif;
+    color: white;   
+}
+.Search {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 1%;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+/*Body Styling */
+
+/*Title With Background Image*/
+h1{
+    background-image:url(./img/img1.jpg);
+    color: white;
+    text-align: center;
+    padding: 15%;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+/*Title with the image*/
+.Title-N2{
+    display: flex;
+    align-items: normal;
+}
+.Title-N2-2{
+    background-color: rgb(255, 128, 0);
+    text-align: left;
+    height: 50vh;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+h2{
+    font-size: 40px;
+    padding: 5% 0% 5% 5%;
+}
+.Title-N2-2 p{
+    padding: 0% 5% 5% 5%;
+}
+.Title-N2 img{
+    margin: none;
+    padding: none;
+    width: 30%;
+    height: 50vh;
+}
+
+/*Images Styling*/
+.images{
+    display: flex;
+}
+.images img{
+    width: 33.33%;
+}
+
+/*For Styling*/
+form{
+    margin: none;
+    padding: 5%;
+    height: 70%;
+    width: 70%;
+    align-content: center;
+    padding-left: 25%;
+    background-color: rgb(107, 0, 238);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.Name{
+    font-size: 25px;
+    margin-bottom: 2%;
+    width: 70%;
+
+}
+.Email{
+    font-size: 25px;
+    margin-bottom: 2%;
+    width: 70%;
+}
+.password{
+    font-size: 25px;
+    margin-bottom: 2%;
+    width: 70%;
+}
+.Pick-One{
+    margin-bottom: 2%;
+}
+.True{
+    margin-bottom: 1%;
+}
+.False{
+    margin-bottom: 1%;
+}
+.Leave-a-message{
+    font-size: 25px;
+    padding: 2% 0;
+    margin-bottom: 2%;
+    width: 70%;
+}
+.Submit{
+    font-size: 25px;
+    color: black;
+    width: 70%;
+    background-color: white;
+}
+
+/*Footer Styling*/
+footer{
+    background-color: black;
+    display: flex;
+}
+footer img{
+    padding: 2%;
+    width: 20%;
+    height: 20%;
+}
+h4{
+    font-size: 25px;
+}
+footer .Text-N2{
+    color: white;
+    font-size: 20px;
+    padding: 4%;
+}
